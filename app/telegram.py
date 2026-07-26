@@ -12,4 +12,7 @@ def send(bot_token: str, chat_id: str, message: str):
         },
     )
 
+    print("Status:", response.status_code)
+    print("Response:", response.text)
+
     response.raise_for_status()
