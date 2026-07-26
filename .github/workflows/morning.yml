@@ -4,16 +4,41 @@ on:
   workflow_dispatch:
 
   schedule:
-    # 7:00 AM IST
-    - cron: "30 1 * * *"
-
-    # 8:00 PM IST
-    - cron: "30 14 * * *"
+    - cron: "30 1 * * *"   # 7:00 AM IST
+    - cron: "30 14 * * *"  # 8:00 PM IST
 
 jobs:
 
   morning:
-    - run: python -m scripts.send_morning
+    runs-on: ubuntu-latest
 
-  evening::
-    - run: python -m scripts.send_evening_meal
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python -m scripts.send_morning
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID_RUCHIR: ${{ secrets.CHAT_ID_RUCHIR }}
+
+  evening:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python -m scripts.send_evening_meal
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID_SAKSHI: ${{ secrets.CHAT_ID_SAKSHI }}
