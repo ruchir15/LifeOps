@@ -1,0 +1,40 @@
+day: Sunday
+
+water_goal: 3 L
+
+steps: 8000
+
+breakfast:
+  - Vegetable Upma
+  - 1 Glass Milk
+
+morning_snack:
+  - Apple
+  - Handful of Roasted Chana
+
+lunch:
+  - 2 Chapatis
+  - Dal Tadka
+  - Mixed Vegetable Curry
+  - Cucumber Salad
+  - Curd
+
+evening_snack:
+  - Buttermilk
+  - Roasted Makhana
+
+dinner:
+  - Paneer Bhurji
+  - 2 Chapatis
+  - Green Salad
+
+workout:
+  - Brisk Walk 40 min
+  - Full Body Stretch 15 min
+  - Plank 3 x 30 sec
+  - Bird Dog 3 x 12
+  - Hip Mobility 10 min
+
+sleep_goal: "7.5 Hours"
+
+motivation: "Recover today, prepare for tomorrow. Small consistent efforts beat intense workouts once a week."
