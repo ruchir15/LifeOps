@@ -1,23 +1,38 @@
+def bullet_list(items):
+    return "\n".join(f"• {item}" for item in items)
+
+
 def format_message(plan):
-
-    workout = "\n".join(
-        f"• {x}" for x in plan["workout"]
-    )
-
-    breakfast = ", ".join(plan["breakfast"])
-
     return f"""
-🏃 {plan['day']}
+🏃 *{plan['day']}*
 
-🥣 Breakfast
-{breakfast}
+🥣 *Breakfast*
+{', '.join(plan['breakfast'])}
 
-🏋 Workout
-{workout}
+🍎 *Morning Snack*
+{', '.join(plan['morning_snack'])}
 
-💧 Water
+🍛 *Lunch*
+{', '.join(plan['lunch'])}
+
+☕ *Evening Snack*
+{', '.join(plan['evening_snack'])}
+
+🍽️ *Dinner*
+{', '.join(plan['dinner'])}
+
+🏋️ *Workout*
+{bullet_list(plan['workout'])}
+
+💧 *Water Goal*
 {plan['water_goal']}
 
-🚶 Steps
+🚶 *Steps*
 {plan['steps']}
+
+😴 *Sleep*
+{plan['sleep_goal']}
+
+💪 *Today's Motivation*
+_{plan['motivation']}_
 """

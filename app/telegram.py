@@ -8,7 +8,8 @@ def send(chat_id, message):
     requests.post(
         f"https://api.telegram.org/bot{TOKEN}/sendMessage",
         json={
-            "chat_id": chat_id,
-            "text": message,
-        },
+             "chat_id": chat_id,
+             "text": message,
+             "parse_mode": "Markdown",
+             }
     ).raise_for_status()
