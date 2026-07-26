@@ -1,0 +1,23 @@
+day: Tuesday
+
+water_goal: 3 L
+
+steps: 9000
+
+breakfast:
+  - Oats
+  - Milk
+
+lunch:
+  - Rajma
+  - Rice
+  - Salad
+
+dinner:
+  - Tofu
+  - Chapati
+
+workout:
+  - Walk 40 min
+  - Lunges
+  - Shoulder Mobility

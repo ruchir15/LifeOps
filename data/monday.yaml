@@ -1,0 +1,24 @@
+day: Monday
+
+water_goal: 3 L
+
+steps: 9000
+
+breakfast:
+  - Moong Chilla
+  - Milk
+
+lunch:
+  - Dal
+  - Salad
+  - Chapati
+
+dinner:
+  - Paneer Bhurji
+  - Chapati
+
+workout:
+  - Walk 35 min
+  - Squats 3x12
+  - Pushups 3x10
+  - Plank 45 sec
