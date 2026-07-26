@@ -23,7 +23,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python scripts/telegram.py
+      - run: python scripts/send_morning.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID_RUCHIR: ${{ secrets.CHAT_ID_RUCHIR }}
