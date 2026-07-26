@@ -13,9 +13,7 @@ on:
 jobs:
 
   morning:
-    ...
     - run: python -m scripts.send_morning
 
-  evening:
-    ...
+  evening::
     - run: python -m scripts.send_evening_meal
