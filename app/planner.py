@@ -1,5 +1,8 @@
+from pathlib import Path
 from datetime import datetime
 import yaml
+
+DATA = Path(__file__).parent.parent / "data"
 
 DAYS = [
     "monday",
@@ -11,9 +14,22 @@ DAYS = [
     "sunday",
 ]
 
+
+def get_plan(day):
+
+    with open(DATA / f"{day}.yaml") as f:
+        return yaml.safe_load(f)
+
+
 def get_today_plan():
 
-    today = DAYS[datetime.utcnow().weekday()]
+    today = DAYS[datetime.now().weekday()]
 
-    with open(f"data/{today}.yaml") as f:
-        return yaml.safe_load(f)
+    return get_plan(today)
+
+
+def get_tomorrow_plan():
+
+    tomorrow = DAYS[(datetime.now().weekday() + 1) % 7]
+
+    return get_plan(tomorrow)

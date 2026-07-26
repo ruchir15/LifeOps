@@ -1,15 +1,15 @@
-import os
 import requests
 
-TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 
-def send(chat_id, message):
+def send(bot_token: str, chat_id: str, message: str):
 
-    requests.post(
-        f"https://api.telegram.org/bot{TOKEN}/sendMessage",
+    response = requests.post(
+        f"https://api.telegram.org/bot{bot_token}/sendMessage",
         json={
-             "chat_id": chat_id,
-             "text": message,
-             "parse_mode": "Markdown",
-             }
-    ).raise_for_status()
+            "chat_id": chat_id,
+            "text": message,
+            "parse_mode": "Markdown",
+        },
+    )
+
+    response.raise_for_status()

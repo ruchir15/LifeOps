@@ -1,16 +1,13 @@
 import os
 
 from app.planner import get_today_plan
-from app.formatter import format_message
+from app.formatter import format_workout
 from app.telegram import send
 
 plan = get_today_plan()
 
-message = format_message(plan)
-
 send(
+    os.environ["BOT_TOKEN"],
     os.environ["CHAT_ID_RUCHIR"],
-    message,
+    format_workout(plan),
 )
-
-print("Morning notification sent.")
