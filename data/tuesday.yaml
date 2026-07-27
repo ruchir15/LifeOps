@@ -1,23 +1,38 @@
 day: Tuesday
 
-water_goal: 3 L
+water_goal: "3 L"
 
 steps: 9000
 
 breakfast:
-  - Oats
-  - Milk
+  - Vegetable Oats
+  - 1 Glass Milk
+
+morning_snack:
+  - Banana
+  - Handful of Almonds
 
 lunch:
   - Rajma
-  - Rice
+  - Brown Rice
   - Salad
+  - Curd
+
+evening_snack:
+  - Roasted Makhana
+  - Buttermilk
 
 dinner:
-  - Tofu
-  - Chapati
+  - Tofu Stir Fry
+  - 2 Chapatis
+  - Salad
 
 workout:
-  - Walk 40 min
-  - Lunges
+  - Brisk Walk 40 min
+  - Lunges 3 x 10
   - Shoulder Mobility
+  - Plank 45 sec
+
+sleep_goal: "7.5 Hours"
+
+motivation: "Build habits that your future self will thank you for."

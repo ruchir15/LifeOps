@@ -1,28 +1,39 @@
 day: Monday
 
-water_goal: 3 L
+water_goal: "3 L"
 
 steps: 9000
 
 breakfast:
-  - Moong Chilla
-  - Milk
+  - Moong Dal Chilla (2)
+  - 1 Glass Milk
+
+morning_snack:
+  - Apple
+  - Roasted Chana
 
 lunch:
-  - Dal
-  - Salad
-  - Chapati
+  - 2 Chapatis
+  - Dal Tadka
+  - Mixed Vegetable Curry
+  - Cucumber Salad
+  - Curd
 
 evening_snack:
-  - Buttermilk
-  - Roasted Makhana
+  - Sprouts Chaat
+  - Green Tea
 
 dinner:
   - Paneer Bhurji
-  - Chapati
+  - 2 Chapatis
+  - Green Salad
 
 workout:
-  - Walk 35 min
-  - Squats 3x12
-  - Pushups 3x10
+  - Brisk Walk 35 min
+  - Squats 3 x 12
+  - Pushups 3 x 10
   - Plank 45 sec
+
+sleep_goal: "7.5 Hours"
+
+motivation: "Consistency beats intensity. One good day at a time."

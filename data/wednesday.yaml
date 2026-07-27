@@ -1,0 +1,38 @@
+day: Wednesday
+
+water_goal: "3 L"
+
+steps: 9000
+
+breakfast:
+  - Besan Chilla (2)
+  - Curd
+
+morning_snack:
+  - Orange
+  - Roasted Peanuts
+
+lunch:
+  - Chole
+  - 2 Chapatis
+  - Mixed Salad
+  - Curd
+
+evening_snack:
+  - Fruit Bowl
+  - Green Tea
+
+dinner:
+  - Paneer Tikka
+  - Stir Fried Vegetables
+  - 2 Chapatis
+
+workout:
+  - Brisk Walk 35 min
+  - Pushups 3 x 12
+  - Bodyweight Squats 3 x 15
+  - Plank 60 sec
+
+sleep_goal: "7.5 Hours"
+
+motivation: "Every workout makes Saturday's cricket easier."
