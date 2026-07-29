@@ -1,0 +1,40 @@
+day: Friday
+
+water_goal: "3.5 L"
+
+steps: 8000
+
+breakfast:
+  - Oats Porridge
+  - 1 Glass Milk
+  - Banana
+
+morning_snack:
+  - Apple
+  - Almonds (10)
+
+lunch:
+  - Soya Chunk Curry
+  - Brown Rice
+  - Salad
+  - Curd
+
+evening_snack:
+  - Peanut Butter Sandwich
+  - Coconut Water
+
+dinner:
+  - Paneer Tikka
+  - 2 Chapatis
+  - Mixed Vegetable Salad
+
+workout:
+  - Brisk Walk 20 min
+  - Sprint Intervals 6 x 30 m
+  - Dynamic Stretching
+  - Shoulder Mobility
+  - Light Core Exercises
+
+sleep_goal: "8 Hours"
+
+motivation: "Cricket tomorrow. Hydrate well and get a full night's sleep."

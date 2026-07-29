@@ -1,0 +1,40 @@
+day: Thursday
+
+water_goal: "3 L"
+
+steps: 9000
+
+breakfast:
+  - Vegetable Poha
+  - 1 Glass Milk
+
+morning_snack:
+  - Guava
+  - Roasted Chana
+
+lunch:
+  - 2 Chapatis
+  - Dal Fry
+  - Bhindi Sabzi
+  - Salad
+  - Curd
+
+evening_snack:
+  - Buttermilk
+  - Roasted Makhana
+
+dinner:
+  - Tofu Curry
+  - 2 Chapatis
+  - Green Salad
+
+workout:
+  - Brisk Walk 40 min
+  - Bodyweight Squats 3 x 15
+  - Pushups 3 x 12
+  - Hip Mobility 10 min
+  - Stretching 10 min
+
+sleep_goal: "7.5 Hours"
+
+motivation: "Stay consistent today. Every small effort compounds."
